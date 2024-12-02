@@ -1,0 +1,40 @@
+.Decoratingp{
+    width:300px;
+    height: 300px;
+}
+.flowerp{
+    width:300px;
+    height: 300px;
+}
+.medicalp{
+    width:300px;
+    height: 300px;
+    
+}
+.mainimage{
+    width:1000px;
+    height:1000px;
+    margin-top:100px;
+    
+}
+.picture_bar{
+    margin-top:300px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    flex:direction row;
+    gap:200px;
+    height:100px;
+}
+.text_bar{
+    margin-right:100px;
+    margin-left:100px;
+    margin-top:200px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap:wrap;
+    flex:direction row;
+    gap:400px;
+}
