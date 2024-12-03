@@ -5,10 +5,13 @@ import smile from '../Assets/smile.png'
 import trophy from '../Assets/trophy.png'
 import thinking from '../Assets/thinking.png'
 import vision from '../Assets/vision.png'
+import{Link,useNavigate} from 'react-router-dom'
 import './About.css';
 
 
 export default function About() {
+    const Navigate=useNavigate();
+  
   return (
     <div>
         <Navbar/>
@@ -56,6 +59,8 @@ Our mission is to bring joy to every gardener's journey by offering the tools, p
 
 Whether you’re a seasoned gardener or just starting out, we’re thrilled to be part of your story. Let’s grow something amazing together!
         </p>
+
+        <button onClick={()=>Navigate(-1)}>Back</button>
         </div>
    
 

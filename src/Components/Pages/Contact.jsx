@@ -2,6 +2,12 @@ import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import './Contact.css'
 
+
+function buttonClick(){
+  console.log("Button click");
+  alert("Submitted");
+}
+
 export default function Contact(){
   return (
     <div> 
@@ -20,7 +26,7 @@ export default function Contact(){
             <input type="remark" className='form-field' id="remark" name="remark" required></input>
 
             <div className='button-container'>
-                <button className='button-form' >Submit</button>
+                <button className='button-form' onClick={buttonClick} >Submit</button>
             </div>
         </div>
 
