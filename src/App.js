@@ -1,15 +1,18 @@
 
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
-import Imagebar from './Components/Imagebar/Imagebar';
+import Contact from './Components/Pages/Contact'
+import Home from  './Components/Pages/Home'
+import About from './Components/Pages/About'
+import Decoratingplants from './Components/Pages/Decoratingplants';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      <Imagebar/>
+
+    <div>
+     <Decoratingplants/>
     </div>
-  );
+  )
 }
 
 export default App;

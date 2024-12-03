@@ -1,31 +1,39 @@
-import main_picture from '../Assets/main_picture.jpg'
+import newmain from '../Assets/newmain.jpg'
 import Decorating_plants from '../Assets/Decoratingplants.jpg'
 import flower_plants from '../Assets/flowerplant.jpg'
 import medicalplants from '../Assets/medicalplants.jpg'
 import '../Imagebar/Imagebar.css'
 
 const Imagebar=()=>{
-
+   
     return(
         <div>
-        <div>
-            <img class Name="mainimage" src={main_picture} alt=""/>
+        <div className="mainimagediv">
+            <img class Name="mainimage" width="100%" src={newmain} alt=""/>
         </div>
 
         <div className="picture_bar">
-                    <img className="Decoratingp" src={Decorating_plants} alt=""></img>
+                    <div className='button_image'>
+                        <img className="Decoratingp" src={Decorating_plants} alt=""></img>
+                        <button className="button_btn"><h3>Decoration Plants</h3></button> 
+                    </div>
+                    <div className='button_image'>
                     <img className="flowerp" src={flower_plants} alt=""></img>
+                    <button className="button_btn"><h3>FlowerPlants</h3></button> 
+                    </div>
+                    
+                    <div className='button_image'>
                     <img className="medicalp" src={medicalplants} alt=""></img>
+                    <button className="button_btn"><h3>FlowerPlants</h3></button> 
+                    </div>
+
         </div>
                     
-        <div className="text_bar">
-                        <h3>Decoration Plants</h3>
-                        <h3>Flower Plants</h3>
-                        <h3>Medical Plants</h3>
-        </div>
+        
                 
         </div>
     )
 }
-   
+
+
 export default Imagebar

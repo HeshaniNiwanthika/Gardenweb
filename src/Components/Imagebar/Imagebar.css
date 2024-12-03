@@ -3,7 +3,7 @@
     height: 300px;
 }
 .flowerp{
-    width:300px;
+    width:350px;
     height: 300px;
 }
 .medicalp{
@@ -11,14 +11,9 @@
     height: 300px;
     
 }
-.mainimage{
-    width:1000px;
-    height:1000px;
-    margin-top:100px;
-    
-}
+
 .picture_bar{
-    margin-top:300px;
+    margin-top:100px;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -27,14 +22,26 @@
     gap:200px;
     height:100px;
 }
-.text_bar{
-    margin-right:100px;
-    margin-left:100px;
-    margin-top:200px;
-    display:flex;
-    justify-content:center;
+.mainimage{
+    display: flex;
+    width:500px;
+    height:1000px;
+}
+
+
+.button_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    flex-wrap:wrap;
-    flex:direction row;
-    gap:400px;
+}
+
+
+.button_btn{
+    margin:10px;
+    padding: 10px;
+    border-radius: 8px;
+    border:none;
+    background-color: chartreuse;
+    
 }

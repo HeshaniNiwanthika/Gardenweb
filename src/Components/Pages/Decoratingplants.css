@@ -1,0 +1,9 @@
+.decoratingplantspicture_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.img-cont{
+    width: 40vw;
+}
