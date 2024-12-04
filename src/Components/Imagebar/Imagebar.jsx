@@ -2,9 +2,13 @@ import newmain from '../Assets/newmain.jpg'
 import Decorating_plants from '../Assets/Decoratingplants.jpg'
 import flower_plants from '../Assets/flowerplant.jpg'
 import medicalplants from '../Assets/medicalplants.jpg'
+/*import { Link,useNavigate} from 'react-router-dom'*/
 import '../Imagebar/Imagebar.css'
 
 const Imagebar=()=>{
+    /*function Imagebar(){
+        const Navigate=useNavigate();
+    }*/
    
     return(
         <div>
@@ -15,7 +19,7 @@ const Imagebar=()=>{
         <div className="picture_bar">
                     <div className='button_image'>
                         <img className="Decoratingp" src={Decorating_plants} alt=""></img>
-                        <button className="button_btn"><h3>Decoration Plants</h3></button> 
+                        <button className="button_btn" /*onClick={()=>Navigate("/Decoratingplants")}*/><h3>Decoration Plants</h3></button> 
                     </div>
                     <div className='button_image'>
                     <img className="flowerp" src={flower_plants} alt=""></img>
